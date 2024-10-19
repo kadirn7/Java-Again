@@ -8,7 +8,7 @@ public class CustomerManager {
 		this.loggers = loggers;
 	}
 	public void add(Customer customer) {
-		System.out.println("Müşteri eklendi " +customer.getFirstName());
+		System.out.println("Müşteri eklendi lan " +customer.getFirstName());
 		
 		Utils.Runloggers(loggers, customer.getFirstName());
 	}
