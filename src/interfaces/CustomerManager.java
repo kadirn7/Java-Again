@@ -13,7 +13,7 @@ public class CustomerManager {
 		Utils.Runloggers(loggers, customer.getFirstName());
 	}
 	public void delete(Customer customer) {
-		System.out.println("Müşteri silindi "+ customer.getFirstName());
+		System.out.println("Müşteri silindi bu da  "+ customer.getFirstName());
 		Utils.Runloggers(loggers, customer.getFirstName());
 	}
 	
